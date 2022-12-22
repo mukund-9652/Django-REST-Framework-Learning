@@ -64,8 +64,24 @@ This activates the virtual environment so that we can build, run, migrate and te
 
 # Django Projects
 
-## Initialization
+## Initialization and Things to remember
 
+- Always up the vagrant server first
 
+```bash
+vagrant up
+```
 
+- Then access the vagrant terminal
 
+```bash
+vagrant ssh
+```
+
+- Then start the python virtual environment
+
+```bash
+
+$ source ~/env/bin/activate
+
+```
