@@ -9,7 +9,8 @@ Profiles for rest api project
 
 `restart the computer`
 
-## Step 2: Create a vagrant virtual environment
+## Step 2: Vagrant Virtual Environment
+
 1. Create a project folder (NewProject)
 
 Run the following commands
@@ -32,11 +33,19 @@ vagrant up
 
 **Now run the following commands to update and install python virtual environment package**
 
-`
+```
 $ sudo apt-get update
 $ sudo apt install python-pip
 $ sudo apt-get install python3-venv
+'The command is used to create the virtual environment (env)'
 $ python3 -m venv ~/env
+```
 
-`
+**After installing and creating the virtual environment, activate the environment.**
+`$ source ~/env/bin/activate`
+
+This activates the virtual environment so that we can build, run, migrate and test the django and models.
+
+
+
 
