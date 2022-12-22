@@ -48,5 +48,13 @@ $ python3 -m venv ~/env
 This activates the virtual environment so that we can build, run, migrate and test the django and models.
 
 
+## **Our Installation and setup is complete!!**
+## **Now we go for Django Projects!!!**
+
+# Django Projects
+
+## Initialization
+
+
 
 
