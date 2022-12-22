@@ -106,8 +106,6 @@ $ source ~/env/bin/activate
 $ pip install django djangorestframework
 ```
 
-- **Create your django app and models**
-
 - Create django project:
 ```bash
 $ django-admin startproject newproject .
