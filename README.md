@@ -18,24 +18,30 @@ Profiles for rest api project
 Run the following commands
 
 ```bash
-vagrant init ubuntu/bionic64
+> vagrant init ubuntu/bionic64
 ```
 
 ```bash
-vagrant up
+> vagrant up
 ```
 
-[If vagrant shows ssh error then go to virtual box and shut down the new environment.]
+[If vagrant shows ssh error then go to virtual box and shut down the new environment and again run the above command.]
 
 ```bash
-vagrant ssh
+> vagrant ssh
 ```
 
 **Now the prompt will go to the vagrant terminal. It will be displayed like this:**
 
 ```bash
-vagrant@ubuntu-bionic:/vagrant$ 
+vagrant@ubuntu-bionic:~$ 
 
+```
+
+**Go the the vagrant workspace with cd command:**
+
+```bash
+$ cd /vagrant/
 ```
 
 **Now run the following commands to update and install python virtual environment package**
@@ -64,18 +70,24 @@ This activates the virtual environment so that we can build, run, migrate and te
 
 # Django Projects
 
-## Initialization and Things to remember
+## 1. Initialization and Things to remember
 
 - Always up the vagrant server first
 
 ```bash
-vagrant up
+> vagrant up
 ```
 
 - Then access the vagrant terminal
 
 ```bash
-vagrant ssh
+> vagrant ssh
+```
+
+- Go the the vagrant workspace with cd command:
+
+```bash
+$ cd /vagrant/
 ```
 
 - Then start the python virtual environment
@@ -85,3 +97,39 @@ vagrant ssh
 $ source ~/env/bin/activate
 
 ```
+
+## 2. Django Files
+
+- Install the Django and DjangoRestFramework into the virtual environment
+
+```bash
+$ pip install django djangorestframework
+```
+
+- **Create your django app and models**
+
+- Create django project:
+```bash
+$ django-admin startproject newproject .
+```
+
+- Create django app:
+```bash
+$ python3 manage.py startapp pages 
+```
+
+- Create the migration for migrating the model to a database
+```bash
+$ python3 manage.py makemigrations
+```
+
+- Deploy the migrations to the database
+```bash
+$ python3 manage.py migrate
+```
+
+- Run the django app
+```bash
+$ python3 manage.py runserver 0.0.0.0:8000
+```
+
