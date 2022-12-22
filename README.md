@@ -25,3 +25,18 @@ vagrant up
 [If vagrant shows ssh error then go to virtual box and shut down the new environment.]
 
 `vagrant ssh`
+
+**Now the prompt will go to the vagrant terminal. It will be displayed like this:**
+
+` vagrant@ubuntu-bionic:/vagrant$ `
+
+**Now run the following commands to update and install python virtual environment package**
+
+`
+$ sudo apt-get update
+$ sudo apt install python-pip
+$ sudo apt-get install python3-venv
+$ python3 -m venv ~/env
+
+`
+
