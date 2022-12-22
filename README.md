@@ -11,9 +11,17 @@ Profiles for rest api project
 
 ## Step 2: Create a vagrant virtual environment
 1. Create a project folder (NewProject)
+
 Run the following commands
-`vagrant init ubuntu/bionic64`
-`vagrant up`
+
+`
+vagrant init ubuntu/bionic64
+`
+
+`
+vagrant up
+`
+
 [If vagrant shows ssh error then go to virtual box and shut down the new environment.]
 
 `vagrant ssh`
