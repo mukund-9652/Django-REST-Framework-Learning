@@ -42,6 +42,7 @@ $ python3 -m venv ~/env
 ```
 
 **After installing and creating the virtual environment, activate the environment.**
+
 `$ source ~/env/bin/activate`
 
 This activates the virtual environment so that we can build, run, migrate and test the django and models.
