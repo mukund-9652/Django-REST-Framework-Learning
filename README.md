@@ -1,6 +1,8 @@
 # REST API Learning
 Profiles for rest api project
 
+# Installation and setup
+
 ## Step 1: Install:
 1. Git
 2. VirtualBox
@@ -15,25 +17,30 @@ Profiles for rest api project
 
 Run the following commands
 
-`
+```bash
 vagrant init ubuntu/bionic64
-`
+```
 
-`
+```bash
 vagrant up
-`
+```
 
 [If vagrant shows ssh error then go to virtual box and shut down the new environment.]
 
-`vagrant ssh`
+```bash
+vagrant ssh
+```
 
 **Now the prompt will go to the vagrant terminal. It will be displayed like this:**
 
-` vagrant@ubuntu-bionic:/vagrant$ `
+```bash
+vagrant@ubuntu-bionic:/vagrant$ 
+
+```
 
 **Now run the following commands to update and install python virtual environment package**
 
-```
+```bash
 $ sudo apt-get update
 $ sudo apt install python-pip
 $ sudo apt-get install python3-venv
@@ -43,13 +50,17 @@ $ python3 -m venv ~/env
 
 **After installing and creating the virtual environment, activate the environment.**
 
-`$ source ~/env/bin/activate`
+```bash
+
+$ source ~/env/bin/activate
+
+```
 
 This activates the virtual environment so that we can build, run, migrate and test the django and models.
 
 
-## **Our Installation and setup is complete!!**
-## **Now we go for Django Projects!!!**
+**Our Installation and setup is complete!!**
+**Now we go for Django Projects!!!**
 
 # Django Projects
 
