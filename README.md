@@ -4,7 +4,9 @@
 
 * [About Django](#about-django)
 * [Installation](#installation)
-## About DJANGO:
+* [Vagrant Virtual Environment Setup](#vagrant-virtual-environment-setup)
+* [Django Project](#django-projects)
+## About Django:
 
 Django is a high-level Python web framework that encourages rapid development
 and clean, pragmatic design. Thanks for checking it out.
@@ -68,7 +70,8 @@ If you depend on Django, remember to support the Django Software Foundation: htt
 
 # Vagrant Virtual Environment Setup
 
-1. Create a project folder (NewProject)
+*1. Create a project folder (NewProject)*
+*2. Open the NewProject Folder and open git-bash here.*
 
 Run the following commands
 
