@@ -5,13 +5,7 @@ set -e
 # TODO: Set to URL of git repo.
 PROJECT_GIT_URL='https://github.com/mukund-9652/Django-REST-Framework-Learning.git'
 
-PROJECT_BASE_PATH='/usr/local/apps'
-VIRTUALENV_BASE_PATH='/usr/local/virtualenvs'
-
-# Set Ubuntu Language
-locale-gen en_GB.UTF-8
-
-# Install Python, SQLite and pip
+PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 
 echo "Installing dependencies..."
 apt-get update
