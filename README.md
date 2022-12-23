@@ -1,5 +1,9 @@
 # REST API Learning with Django
 
+## Documentation:
+
+* [About Django](#about-django)
+* [Installation](#installation)
 ## About DJANGO:
 
 Django is a high-level Python web framework that encourages rapid development
@@ -53,17 +57,16 @@ Django's development depends on your contributions.
 
 If you depend on Django, remember to support the Django Software Foundation: https://www.djangoproject.com/fundraising/
 
-# Installation and setup
+# Installation
 
-## Step 1: Install:
-1. Git
-2. VirtualBox
-3. VSCode
-4. Vagrant
+1. Git : https://git-scm.com/downloads
+2. VirtualBox : https://www.virtualbox.org/wiki/Downloads
+3. VSCode : https://code.visualstudio.com/download
+4. Vagrant : https://developer.hashicorp.com/vagrant/downloads
 
-`restart the computer`
+*restart the computer*
 
-## Step 2: Vagrant Virtual Environment
+# Vagrant Virtual Environment Setup
 
 1. Create a project folder (NewProject)
 
