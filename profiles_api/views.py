@@ -56,6 +56,7 @@ class HelloApiView(APIView):
 class HelloViewSet(viewsets.ViewSet):
     serializer_class = serializers.HelloSerializer
     
+    
     def list(self,request):
         a_viewset=[
             'Uses action(list, create, retrieve, update, partial_update)',
